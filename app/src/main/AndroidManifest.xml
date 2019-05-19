@@ -15,9 +15,9 @@
         android:theme="@style/AppTheme">
         <activity android:name=".credits_screen"></activity>
         <activity android:name=".connect_menu" />
-        <activity android:name=".main_menu" />
+        <activity android:name=".CustomGesturesActivity" />
         <activity
-            android:name=".CustomGesturesActivity"
+            android:name=".main_menu"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

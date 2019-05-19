@@ -5,5 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".credits_screen">
+    //TODO
 
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="403dp"
+        android:layout_marginRight="403dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Kiedys beda,teraz RODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    //Kiedys byl tu button od powrotu, ale Android sam to obsluguje. Cos tu wstawiamy?
 </android.support.constraint.ConstraintLayout>
